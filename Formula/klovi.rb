@@ -1,28 +1,28 @@
 class Klovi < Formula
   desc "A local web viewer for Claude Code session history"
   homepage "https://github.com/cookielab/klovi"
-  version "1.1.0"
+  version "2.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/cookielab/klovi/releases/download/1.1.0/klovi-bun-darwin-arm64.tar.gz"
-      sha256 "d061776dbbbf325aece4595958f64e161e82ace9ea7f05dc6283b1c92b0816ae"
+      url "https://github.com/cookielab/klovi/releases/download/2.0.0/klovi-bun-darwin-arm64.tar.gz"
+      sha256 "9afddacaec6715078f04db6530867c09cd27bc4143ab0b3abe633bdf58e63824"
     end
     on_intel do
-      url "https://github.com/cookielab/klovi/releases/download/1.1.0/klovi-bun-darwin-x64.tar.gz"
-      sha256 "4522839901100a30be703786d6c458032cc15199dba2d0f59af3843b7862f3f1"
+      url "https://github.com/cookielab/klovi/releases/download/2.0.0/klovi-bun-darwin-x64.tar.gz"
+      sha256 "f6868f46b05e8b20edbbd3178d51eb4eabc4e6a3c4f970b7191307ff96eeb0ae"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/cookielab/klovi/releases/download/1.1.0/klovi-bun-linux-arm64.tar.gz"
-      sha256 "1d2b214729ac0af97ce03263be26f3d2ff91c1a3b776cdf757a79d868cead74e"
+      url "https://github.com/cookielab/klovi/releases/download/2.0.0/klovi-bun-linux-arm64.tar.gz"
+      sha256 "9c43c508c72ebfc02288edd39f3506b7d10ee1a9699492478b498c8f6a580d90"
     end
     on_intel do
-      url "https://github.com/cookielab/klovi/releases/download/1.1.0/klovi-bun-linux-x64.tar.gz"
-      sha256 "a675d8e99f0b52d1d8c1365bb832b556035bed9ab2309f62d726ae42606ddee6"
+      url "https://github.com/cookielab/klovi/releases/download/2.0.0/klovi-bun-linux-x64.tar.gz"
+      sha256 "c17bf2641be1edc7e9481dfa3a8069a698814cd94f2b3855bde18efa4d9b3b55"
     end
   end
 
