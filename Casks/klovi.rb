@@ -1,6 +1,6 @@
 cask "klovi" do
-  version "3.3.0"
-  sha256 "e5743dc37adb62e4168eaef86859dee1b12460de30581bce9fd1b010216e19e1"
+  version "3.4.0"
+  sha256 "553917c568f03ba606d9a4cfbf71aad05c6c9ff43c6fd45aacd2e46ddda0dc3c"
 
   url "https://github.com/cookielab/klovi/releases/download/#{version}/Klovi-#{version}-macos-arm64.dmg"
   name "Klovi"
